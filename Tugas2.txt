@@ -1,7 +1,0 @@
-1. nomor 1 modul 4
-2. nomor 4 modul 4
-3. Buatlah perulangan menuliskan angka 1 sampai 5 menggunakan perulangan while
-4. Buatlah perulangan menuliskan angka 1 sampai 4 menggunakan repeat until.
-
-Note : 
-nomor 3 dan 4 boleh diliat di modul.
