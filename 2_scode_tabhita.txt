@@ -1,0 +1,18 @@
+program dua;
+uses crt;
+var 
+    nama_awal,nama_akhir:string;
+    suhu,suhu1,suhu2,suhu3:real;
+begin
+    clrscr;
+    write('Masukkan nama awal: '); readln(nama_awal);
+    write('Masukkan nama akhir: '); readln(nama_akhir);
+    write('Masukkan suhu hari ini dalam celcius: ');readln(suhu);
+    suhu1:= suhu*4/5;
+    suhu2:= suhu+273;
+    suhu3:= suhu*9/5+32;
+    write('Halo ',nama_awal,' ', nama_akhir , ' hari ini bersuhu ',suhu1:0:1,' reamur/ ',suhu2:0:1,' kelvin/ ',suhu3:0:1,' faranheit');
+    readln;
+end.
+
+
