@@ -1,0 +1,28 @@
+program tiga;
+uses crt;
+var 
+    x,y:integer;
+begin
+    clrscr;
+    write('Masukkan titik x:'); readln(x);
+    write('Masukkan titik y:'); readln(y);
+    
+    if (x>0) AND (y>0) then 
+        begin
+            writeln('Titik anda berada di kuadran I');
+        end
+    else if (x<0) AND (y>0) then
+        begin
+            writeln('Titik anda berada di kuadran II');
+        end
+    else if (x<0) AND (y<0) then
+        begin
+            writeln('Titik anda berada di kuadran III');
+        end
+    else
+        begin
+            writeln('Titik anda berada di kuadran IV');
+        end;
+    readln;
+end.
+
