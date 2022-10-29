@@ -1,0 +1,23 @@
+program koordinat;
+uses crt;
+var
+        x,y:integer;
+begin
+        clrscr;
+        write('Nilai x :  ');readln(x);
+        write('Nilai y :  ');readln(y);
+        clrscr;
+
+        if (x<0) and (y>0) then
+        writeln ('titik anda berada di kuadran II')
+        else if (x>0) and (y<0) then
+        writeln('titik anda berada di kuadran IV')
+        else if (x>0) and (y>0) then
+        writeln('titik anda berada di kuadran I')
+        else if (x<0) and (y<0) then
+        writeln('titik anda berada di kuadran III')
+        else writeln ('titik anda tidak terdata');
+
+        readln;
+
+end.
