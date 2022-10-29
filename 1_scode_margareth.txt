@@ -1,0 +1,24 @@
+program sapa;
+uses crt;
+var
+        nama,waktu:string;
+
+begin
+        clrscr;
+        write('Masukkan nama: ');
+        readln(nama);
+        write('Masukkan waktu: ');
+        readln(waktu);
+        clrscr;
+
+        writeln(' S');
+        writeln(' E');
+        writeln(' L');
+        writeln(' A');
+        writeln(' M');
+        writeln(' A');
+        writeln(' T');
+        writeln(waktu);
+        writeln(nama);
+        readln;
+end.
