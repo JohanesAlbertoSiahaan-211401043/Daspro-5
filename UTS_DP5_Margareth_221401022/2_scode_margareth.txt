@@ -1,0 +1,22 @@
+program celcius;
+uses crt;
+var
+        nama_awal,nama_akhir:string;
+        suhu:integer;
+        reamur,kelvin,farenheit:real;
+begin
+        clrscr;
+        write('Masukkan nama awal: ');
+        readln(nama_awal);
+        write('Masukkan nama akhir: ');
+        readln(nama_akhir);
+        write('Masukkan suhu hari ini dalam celcius: ');
+        readln(suhu);
+        reamur:=4/5*suhu;
+        kelvin:=273+suhu;
+        farenheit:= 9/5*suhu+32;
+        clrscr;
+        writeln('Halo ', nama_awal,' ', nama_akhir,', hari ini bersuhu ', reamur:5:1, ' reamur / ', kelvin:5:1,' kelvin /', farenheit:5:1, ' farenheit');
+        readln;
+
+end.
